@@ -4,7 +4,7 @@ import pandas as pd
 app = FastAPI()
 
 MAP_KEY = "REPLACE_WITH_YOUR_NASA_KEY"
-API_URL = f"https://firms.modaps.eosdis.nasa.gov/api/area/csv/{MAP_KEY}/VIIRS_SNPP_NRT/world/1"
+API_URL = f"https://firms.modaps.eosdis.nasa.gov/api/area/csv/{8e35be548dcbdab8b227c62946102da5}/VIIRS_SNPP_NRT/world/1"
 
 @app.get("/")
 def home():
